@@ -225,13 +225,13 @@ export default function App() {
                 <div className="shrink-0 relative">
                   <div className="w-28 h-28 sm:w-40 sm:h-40 rounded-3xl overflow-hidden border-2 border-pink-500/60 shadow-[0_0_35px_rgba(236,72,153,0.4)] p-1 bg-gradient-to-tr from-pink-600 via-rose-500 to-pink-400">
                     <img
-                      src="https://i.ibb.co/0R7qc34v/1093.jpg"
-                      alt="GB STUDY"
+                      src="https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg"
+                      alt="pandey ji"
                       className="w-full h-full object-cover rounded-2xl"
                     />
                   </div>
                   <div className="absolute -bottom-3 -right-3 bg-pink-600 text-white text-[11px] font-black px-3 py-1 rounded-xl shadow-lg border border-pink-400 flex items-center gap-1">
-                    <Sparkles className="w-3 h-3" /> GB STUDY
+                    <Sparkles className="w-3 h-3" /> pandey ji 
                   </div>
                 </div>
               </div>
@@ -368,7 +368,7 @@ export default function App() {
           className="p-3.5 sm:px-4 sm:py-3 rounded-full bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-500 hover:to-rose-500 text-white font-extrabold text-xs sm:text-sm flex items-center gap-2 shadow-[0_0_20px_rgba(236,72,153,0.6)] hover:shadow-[0_0_30px_rgba(236,72,153,0.8)] transition-all cursor-pointer active:scale-95"
         >
           <Send className="w-5 h-5 fill-current" />
-          <span className="hidden sm:inline">Join Telegram</span>
+          <span className="hidden sm:inline">Join now</span>
         </button>
       </div>
 
