@@ -176,10 +176,10 @@ export const CourseView: React.FC<CourseViewProps> = ({
           <div className="flex items-start gap-3.5 sm:gap-5 min-w-0">
             <div className="w-20 h-20 sm:w-28 sm:h-28 rounded-2xl overflow-hidden border-2 border-pink-500/40 bg-[#120517] shrink-0 shadow-[0_0_20px_rgba(236,72,153,0.3)]">
               <img
-                src={batch.thumbnail || 'https://i.ibb.co/0R7qc34v/1093.jpg'}
+                src={batch.thumbnail || 'https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg'}
                 alt={batch.title}
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = 'https://i.ibb.co/0R7qc34v/1093.jpg';
+                  (e.target as HTMLImageElement).src = 'https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg';
                 }}
                 className="w-full h-full object-cover"
               />
@@ -189,7 +189,7 @@ export const CourseView: React.FC<CourseViewProps> = ({
                 <span className="px-2.5 py-0.5 rounded-md bg-pink-500/20 text-pink-300 border border-pink-500/30 text-[10px] font-black uppercase tracking-wider">
                   {batch.category}
                 </span>
-                <span className="text-pink-300/60 text-xs font-semibold">GB STUDY Verified Course</span>
+                <span className="text-pink-300/60 text-xs font-semibold">pandey ji Verified Course</span>
               </div>
               <h1 className="text-base sm:text-2xl font-black text-white leading-snug drop-shadow-sm">
                 {batch.title}
@@ -374,7 +374,7 @@ export const CourseView: React.FC<CourseViewProps> = ({
 
             if (isVideo) {
               const durationStr = formatDuration(item.duration, item.duration_in_secs);
-              const thumb = item.thumbnail || 'https://i.ibb.co/0R7qc34v/1093.jpg';
+              const thumb = item.thumbnail || 'https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg';
               const pdfUrl = item.pdf_link;
 
               return (
