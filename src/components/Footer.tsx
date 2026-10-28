@@ -15,14 +15,14 @@ export const Footer: React.FC<FooterProps> = ({ onOpenTelegram, onSelectCategory
           <div className="flex items-center gap-4 text-center md:text-left flex-col md:flex-row">
             <div className="w-16 h-16 rounded-2xl overflow-hidden border-2 border-pink-500 shadow-[0_0_20px_rgba(236,72,153,0.4)] p-0.5 bg-gradient-to-tr from-pink-600 to-rose-500 shrink-0">
               <img
-                src="https://i.ibb.co/0R7qc34v/1093.jpg"
-                alt="GB STUDY"
+                src="https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg"
+                alt="pandey ji"
                 className="w-full h-full object-cover rounded-xl"
               />
             </div>
             <div>
               <h3 className="text-lg sm:text-xl font-black text-white">
-                Join <span className="text-pink-400">GB STUDY</span> Official Telegram
+                Join <span className="text-pink-400">pandey ji</span> Official Telegram
               </h3>
               <p className="text-xs sm:text-sm text-pink-200/70 mt-1">
                 Get real-time updates for new classes, test series, class notes PDF, and DPP sheets.
@@ -45,8 +45,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenTelegram, onSelectCategory
           <div className="space-y-3">
             <div className="flex items-center gap-2.5">
               <img
-                src="https://i.ibb.co/0R7qc34v/1093.jpg"
-                alt="GB STUDY"
+                src="https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg"
+                alt="pandey ji"
                 className="w-8 h-8 rounded-xl object-cover border border-pink-500/40"
               />
               <span className="text-xl font-black text-white">
@@ -90,12 +90,12 @@ export const Footer: React.FC<FooterProps> = ({ onOpenTelegram, onSelectCategory
               Follow our Telegram channel for the fastest updates on newly unlocked classes, test series, and PDFs.
             </p>
             <a
-              href="https://t.me/GBFreestudy"
+              href="https://t.me/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-xs font-bold text-pink-400 hover:text-pink-300 underline"
             >
-              <Send className="w-3.5 h-3.5" /> t.me/GBFreestudy
+              <Send className="w-3.5 h-3.5" /> t.me/GBF
             </a>
           </div>
         </div>
