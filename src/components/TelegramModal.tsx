@@ -9,9 +9,10 @@ interface TelegramModalProps {
 export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
-  const handleJoinTelegram = () => {
-    window.open('https://whatsapp.com/channel/0029VbDcWLp8PgsHZKtwRd0z, '_blank', 'noopener,noreferrer');
-  };
+const handleJoinTelegram = () => {
+  window.open('https://whatsapp.com/channel/0029VbDcWLp8PgsHZKtwRd0z', '_blank', 'noopener,noreferrer');
+};
+  
 
   return (
     <div
