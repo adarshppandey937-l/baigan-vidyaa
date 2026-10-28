@@ -364,7 +364,7 @@ export default function App() {
       <div className="fixed bottom-5 right-5 z-40">
         <button
           onClick={() => setIsTelegramOpen(true)}
-          title="Join Telegram Channel"
+          title="Join whatsapp Channel"
           className="p-3.5 sm:px-4 sm:py-3 rounded-full bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-500 hover:to-rose-500 text-white font-extrabold text-xs sm:text-sm flex items-center gap-2 shadow-[0_0_20px_rgba(236,72,153,0.6)] hover:shadow-[0_0_30px_rgba(236,72,153,0.8)] transition-all cursor-pointer active:scale-95"
         >
           <Send className="w-5 h-5 fill-current" />
