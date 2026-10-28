@@ -54,7 +54,7 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
 
         {/* Description */}
         <p className="text-xs sm:text-sm text-pink-100/80 mt-2 mb-5 leading-relaxed">
-          Stay connected with <strong className="text-pink-300">GB STUDY</strong> for free live class links, class PDF notes, daily practice problems (DPP), test updates, and instant batch notifications!
+          Stay connected with <strong className="text-pink-300">pandey ji</strong> for free live class links, class PDF notes, daily practice problems (DPP), test updates, and instant batch notifications!
         </p>
 
         {/* Feature bullet highlights in pink boxes */}
@@ -88,7 +88,7 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
 
         <p className="text-[10px] text-pink-300/60 mt-4 flex items-center justify-center gap-1">
           <Sparkles className="w-3 h-3 text-pink-400" />
-          Official Channel: @GBFreestudy
+          Official Channel: pandey ji
         </p>
       </div>
     </div>
