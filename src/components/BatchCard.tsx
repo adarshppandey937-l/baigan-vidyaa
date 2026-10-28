@@ -81,7 +81,7 @@ export const BatchCard: React.FC<BatchCardProps> = ({
             {batch.title}
           </h3>
           <p className="text-[11px] text-pink-300/60 font-medium mt-1">
-            GB STUDY &bull; Verified Lectures &bull; Complete Batch
+            pandey ji &bull; Verified Lectures &bull; Complete Batch
           </p>
         </div>
 
