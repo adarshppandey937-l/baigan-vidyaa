@@ -35,7 +35,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenTelegram, onSelectCategory
             className="py-3 px-6 rounded-2xl bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-500 hover:to-rose-500 text-white font-extrabold text-sm flex items-center gap-2 shadow-[0_0_20px_rgba(236,72,153,0.5)] transition-all cursor-pointer active:scale-95 shrink-0"
           >
             <Send className="w-4 h-4 fill-current" />
-            <span>Join @GBFreestudy</span>
+            <span>Join </span>
           </button>
         </div>
 
@@ -87,15 +87,15 @@ export const Footer: React.FC<FooterProps> = ({ onOpenTelegram, onSelectCategory
               Community & Updates
             </h4>
             <p className="text-xs text-pink-200/70 mb-3 leading-relaxed">
-              Follow our Telegram channel for the fastest updates on newly unlocked classes, test series, and PDFs.
+              Follow our WhatsApp channel for the fastest updates on newly unlocked classes, test series, and PDFs.
             </p>
             <a
-              href="https://t.me/"
+              href="https://whatsapp.com/channel/0029VbDcWLp8PgsHZKtwRd0z"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-xs font-bold text-pink-400 hover:text-pink-300 underline"
             >
-              <Send className="w-3.5 h-3.5" /> t.me/GBF
+              <Send className="w-3.5 h-3.5" /> https://whatsapp.com/channel/0029VbDcWLp8PgsHZKtwRd0z
             </a>
           </div>
         </div>
