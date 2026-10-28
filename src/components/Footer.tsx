@@ -22,7 +22,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenTelegram, onSelectCategory
             </div>
             <div>
               <h3 className="text-lg sm:text-xl font-black text-white">
-                Join <span className="text-pink-400">pandey ji</span> Official Telegram
+                Join <span className="text-pink-400">pandey ji</span> Official WhatsApp channel 
               </h3>
               <p className="text-xs sm:text-sm text-pink-200/70 mt-1">
                 Get real-time updates for new classes, test series, class notes PDF, and DPP sheets.
