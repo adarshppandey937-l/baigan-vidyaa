@@ -10,7 +10,7 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
   if (!isOpen) return null;
 
   const handleJoinTelegram = () => {
-    window.open('https://t.me/', '_blank', 'noopener,noreferrer');
+    window.open('https://whatsapp.com/channel/0029VbDcWLp8PgsHZKtwRd0z, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -49,12 +49,12 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
 
         {/* Title */}
         <h3 className="text-xl sm:text-2xl font-black text-white tracking-tight">
-          Join <span className="text-pink-500 drop-shadow-[0_0_12px_rgba(236,72,153,0.6)]">GB STUDY</span> Telegram Channel
+          Join <span className="text-pink-500 drop-shadow-[0_0_12px_rgba(236,72,153,0.6)]">pandey ji</span> whatsapp Channel
         </h3>
 
         {/* Description */}
         <p className="text-xs sm:text-sm text-pink-100/80 mt-2 mb-5 leading-relaxed">
-          Stay connected with <strong className="text-pink-300">GB STUDY</strong> for free live class links, class PDF notes, daily practice problems (DPP), test updates, and instant batch notifications!
+          Stay connected with <strong className="text-pink-300">pandey ji</strong> for free live class links, class PDF notes, daily practice problems (DPP), test updates, and instant batch notifications!
         </p>
 
         {/* Feature bullet highlights in pink boxes */}
