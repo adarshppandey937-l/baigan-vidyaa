@@ -193,7 +193,7 @@ export default function App() {
                   </div>
 
                   <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight mb-3">
-                    Welcome to <span className="text-pink-500 drop-shadow-[0_0_20px_rgba(236,72,153,0.7)]">GB STUDY</span>
+                    Welcome to <span className="text-pink-500 drop-shadow-[0_0_20px_rgba(236,72,153,0.7)]">pandey ji</span>
                   </h1>
 
                   <p className="text-sm sm:text-base text-pink-200/80 max-w-2xl leading-relaxed mb-6">
@@ -206,7 +206,7 @@ export default function App() {
                       className="py-3 px-6 rounded-2xl bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-500 hover:to-rose-500 text-white font-black text-sm flex items-center gap-2 shadow-[0_0_20px_rgba(236,72,153,0.5)] hover:shadow-[0_0_28px_rgba(236,72,153,0.7)] transition-all cursor-pointer active:scale-95"
                     >
                       <Send className="w-4 h-4 fill-current" />
-                      <span>Join Telegram Channel</span>
+                      <span>Join whatsapp Channel</span>
                     </button>
 
                     <button
