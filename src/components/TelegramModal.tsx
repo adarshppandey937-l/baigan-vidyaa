@@ -37,8 +37,8 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
         <div className="mx-auto mb-4 relative w-20 h-20">
           <div className="w-20 h-20 rounded-2xl overflow-hidden border-2 border-pink-500 shadow-[0_0_25px_rgba(236,72,153,0.5)] p-0.5 bg-gradient-to-tr from-pink-600 to-rose-500">
             <img
-              src="https://i.ibb.co/0R7qc34v/1093.jpg"
-              alt="GB STUDY"
+              src="https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg"
+              alt="pandey ji"
               className="w-full h-full object-cover rounded-xl"
             />
           </div>
@@ -76,7 +76,7 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
             className="flex-1 py-3 px-5 rounded-xl bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-500 hover:to-rose-500 text-white font-black text-sm tracking-wide shadow-[0_0_20px_rgba(236,72,153,0.5)] hover:shadow-[0_0_28px_rgba(236,72,153,0.7)] flex items-center justify-center gap-2 transition-all cursor-pointer active:scale-98"
           >
             <Send className="w-4 h-4 fill-current" />
-            Join Telegram
+            Join now
           </button>
           <button
             onClick={onClose}
@@ -88,7 +88,7 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
 
         <p className="text-[10px] text-pink-300/60 mt-4 flex items-center justify-center gap-1">
           <Sparkles className="w-3 h-3 text-pink-400" />
-          Official Channel: @GBFreestudy
+          Pandey ji
         </p>
       </div>
     </div>
