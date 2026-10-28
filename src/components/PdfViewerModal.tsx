@@ -41,7 +41,7 @@ export const PdfViewerModal: React.FC<PdfViewerModalProps> = ({
           </div>
           <div className="min-w-0">
             <span className="text-[10px] font-black uppercase text-pink-400 tracking-wider">
-              GB STUDY PDF NOTES
+              PANDEY JI PDF NOTES
             </span>
             <h3 className="text-xs sm:text-sm font-bold text-white truncate">{title}</h3>
           </div>
@@ -86,7 +86,7 @@ export const PdfViewerModal: React.FC<PdfViewerModalProps> = ({
         {/* Action bar at bottom */}
         <div className="p-3 bg-[#170820] border-t border-pink-500/20 flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
           <p className="text-[11px] text-pink-300/80">
-            Notes rendered via GB STUDY Secure PDF Proxy. Tap button on the right to download or open in Google Drive.
+            Notes rendered via PANDEY JI Secure PDF Proxy. Tap button on the right to download or open in Google Drive.
           </p>
           <button
             onClick={handleOpenExternal}
