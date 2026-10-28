@@ -72,7 +72,7 @@ export const PdfViewerModal: React.FC<PdfViewerModalProps> = ({
         {loading && (
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#100516] z-10">
             <Loader2 className="w-8 h-8 text-pink-500 animate-spin mb-2" />
-            <p className="text-xs text-pink-300 font-semibold">Loading GB STUDY PDF Notes...</p>
+            <p className="text-xs text-pink-300 font-semibold">Loading pandey ji PDF Notes...</p>
           </div>
         )}
 
