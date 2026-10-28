@@ -76,7 +76,7 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
             className="flex-1 py-3 px-5 rounded-xl bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-500 hover:to-rose-500 text-white font-black text-sm tracking-wide shadow-[0_0_20px_rgba(236,72,153,0.5)] hover:shadow-[0_0_28px_rgba(236,72,153,0.7)] flex items-center justify-center gap-2 transition-all cursor-pointer active:scale-98"
           >
             <Send className="w-4 h-4 fill-current" />
-            Join Telegram
+            join whatsapp 
           </button>
           <button
             onClick={onClose}
@@ -88,7 +88,7 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
 
         <p className="text-[10px] text-pink-300/60 mt-4 flex items-center justify-center gap-1">
           <Sparkles className="w-3 h-3 text-pink-400" />
-          Official Channel: pandey ji
+          OWNER : PANDEY Ji
         </p>
       </div>
     </div>
