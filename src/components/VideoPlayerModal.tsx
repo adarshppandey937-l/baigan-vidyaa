@@ -527,7 +527,7 @@ export const VideoPlayerModal: React.FC<VideoPlayerModalProps> = ({
           <div className="min-w-0">
             <div className="flex items-center gap-2">
               <span className="text-[10px] font-black uppercase tracking-wider text-pink-400 bg-pink-500/10 px-2 py-0.5 rounded border border-pink-500/20">
-                GB STUDY LECTURE
+                PANDEY JI LECTURE
               </span>
             </div>
             <h2 className="text-xs sm:text-base font-extrabold text-white truncate drop-shadow-md">
