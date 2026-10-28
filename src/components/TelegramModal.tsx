@@ -37,8 +37,8 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
         <div className="mx-auto mb-4 relative w-20 h-20">
           <div className="w-20 h-20 rounded-2xl overflow-hidden border-2 border-pink-500 shadow-[0_0_25px_rgba(236,72,153,0.5)] p-0.5 bg-gradient-to-tr from-pink-600 to-rose-500">
             <img
-              src="https://i.ibb.co/0R7qc34v/1093.jpg"
-              alt="GB STUDY"
+              src="https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg"
+              alt="pandey ji"
               className="w-full h-full object-cover rounded-xl"
             />
           </div>
@@ -49,7 +49,7 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
 
         {/* Title */}
         <h3 className="text-xl sm:text-2xl font-black text-white tracking-tight">
-          Join <span className="text-pink-500 drop-shadow-[0_0_12px_rgba(236,72,153,0.6)]">GB STUDY</span> Telegram Channel
+          Join <span className="text-pink-500 drop-shadow-[0_0_12px_rgba(236,72,153,0.6)]">pandey ji</span> whatsapp Channel
         </h3>
 
         {/* Description */}
