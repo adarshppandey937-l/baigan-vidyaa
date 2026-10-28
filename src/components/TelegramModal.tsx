@@ -10,7 +10,7 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
   if (!isOpen) return null;
 
   const handleJoinTelegram = () => {
-    window.open('https://t.me/GBFreestudy', '_blank', 'noopener,noreferrer');
+    window.open('https://t.me/', '_blank', 'noopener,noreferrer');
   };
 
   return (
