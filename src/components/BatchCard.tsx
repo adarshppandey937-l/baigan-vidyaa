@@ -30,7 +30,7 @@ export const BatchCard: React.FC<BatchCardProps> = ({
   const thumbnailSrc =
     !imgError && batch.thumbnail && batch.thumbnail.trim() !== ''
       ? batch.thumbnail
-      : 'https://i.ibb.co/0R7qc34v/1093.jpg';
+      : 'https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg';
 
   return (
     <div
