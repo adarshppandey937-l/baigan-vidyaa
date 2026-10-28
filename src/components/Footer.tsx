@@ -102,7 +102,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenTelegram, onSelectCategory
 
         {/* Bottom Bar */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-pink-300/50">
-          <p>&copy; {new Date().getFullYear()} GB STUDY. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} pandey ji. All rights reserved.</p>
           <p className="flex items-center gap-1.5">
             Designed for ambitious students with <Heart className="w-3.5 h-3.5 text-pink-500 fill-current" />
           </p>
