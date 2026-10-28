@@ -56,7 +56,7 @@ export const Header: React.FC<HeaderProps> = ({
             <div className="min-w-0">
               <div className="flex items-center gap-1.5">
                 <span className="text-lg sm:text-2xl font-black tracking-tight text-white drop-shadow-md">
-                  pandey<span className="text-pink-500 drop-shadow-[0_0_12px_rgba(236,72,153,0.7)]">ji</span>
+                  pandey <span className="text-pink-500 drop-shadow-[0_0_12px_rgba(236,72,153,0.7)]">ji</span>
                 </span>
               </div>
               <p className="text-[10px] sm:text-[11px] font-medium text-pink-300/70 truncate hidden sm:block">
