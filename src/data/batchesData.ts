@@ -9,13 +9,13 @@ export const ALL_BATCHES: Batch[] = [
   {
     "id": 41,
     "title": "MATHS VOD 3.0 BATCH BY ADITYA RANJAN SIR (Arithmetic + Advance ) & (Pre + Mains ) for all exams with updated content..",
-    "thumbnail": "https://i.ibb.co/0R7qc34v/1093.jpg",
+    "thumbnail": "https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg",
     "category": "Maths"
   },
   {
     "id": 28,
     "title": "MATHS VOD 2.0 BATCH BY ADITYA RANJAN SIR (Arithmetic + Advance ) & (Pre + Mains ) for all exams with updated\u00a0content.",
-    "thumbnail": "https://i.ibb.co/0R7qc34v/1093.jpg",
+    "thumbnail": "https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg",
     "category": "Maths"
   },
   {
