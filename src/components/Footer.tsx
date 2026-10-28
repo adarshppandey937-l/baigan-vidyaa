@@ -50,7 +50,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenTelegram, onSelectCategory
                 className="w-8 h-8 rounded-xl object-cover border border-pink-500/40"
               />
               <span className="text-xl font-black text-white">
-                GB <span className="text-pink-500">STUDY</span>
+                pandey <span className="text-pink-500">ji</span>
               </span>
             </div>
             <p className="text-xs text-pink-200/70 leading-relaxed">
