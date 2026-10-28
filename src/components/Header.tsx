@@ -47,8 +47,8 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <div className="relative">
               <img
-                src="https://i.ibb.co/0R7qc34v/1093.jpg"
-                alt="GB STUDY"
+                src="https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg"
+                alt="pandey ji"
                 className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl object-cover border-2 border-pink-500/50 shadow-[0_0_15px_rgba(236,72,153,0.35)] group-hover:scale-105 transition-transform"
               />
               <span className="absolute -bottom-1 -right-1 w-3 h-3 bg-pink-500 rounded-full border-2 border-[#0c0510] animate-pulse"></span>
