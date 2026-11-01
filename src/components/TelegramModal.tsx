@@ -1,7 +1,7 @@
 import React from 'react';
 import { Send, X, ShieldCheck, Bell, Sparkles } from 'lucide-react';
 
-interface TelegramModalProps {
+interface WhatsappModalProps {
   isOpen: boolean;
   onClose: () => void;
 }
@@ -9,7 +9,7 @@ interface TelegramModalProps {
 export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
-  const handleJoinTelegram = () => {
+  const handleJoinWhatsapp = () => {
     window.open('https://whatsapp.com/channel/0029VbDcWLp8PgsHZKtwRd0z', '_blank', 'noopener,noreferrer');
   };
 
@@ -27,7 +27,7 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
         {/* Close Button top-right */}
         <button
           onClick={onClose}
-          aria-label="Close Telegram popup"
+          aria-label="Close WhatsApp popup"
           className="absolute top-4 right-4 text-pink-300/70 hover:text-white bg-pink-500/10 hover:bg-pink-500/20 border border-pink-500/20 rounded-xl p-1.5 transition-colors cursor-pointer"
         >
           <X className="w-5 h-5" />
@@ -72,7 +72,7 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-3">
           <button
-            onClick={handleJoinTelegram}
+            onClick={handleJoinWhatsapp}
             className="flex-1 py-3 px-5 rounded-xl bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-500 hover:to-rose-500 text-white font-black text-sm tracking-wide shadow-[0_0_20px_rgba(236,72,153,0.5)] hover:shadow-[0_0_28px_rgba(236,72,153,0.7)] flex items-center justify-center gap-2 transition-all cursor-pointer active:scale-98"
           >
             <Send className="w-4 h-4 fill-current" />
