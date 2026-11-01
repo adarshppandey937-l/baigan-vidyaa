@@ -132,7 +132,7 @@ export const Header: React.FC<HeaderProps> = ({
             className="px-3 sm:px-4 py-2 rounded-xl bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-500 hover:to-rose-500 text-white text-xs sm:text-sm font-extrabold flex items-center gap-1.5 shadow-[0_0_16px_rgba(236,72,153,0.45)] hover:shadow-[0_0_24px_rgba(236,72,153,0.6)] transition-all cursor-pointer active:scale-95 shrink-0"
           >
             <Send className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-white fill-current" />
-            <span className="hidden sm:inline">Join</span> Telegram
+            <span className="hidden sm:inline">Join</span> WhatsApp
           </button>
         </div>
       </div>
